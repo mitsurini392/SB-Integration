@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+
+@media only screen and (min-width:986px) {
+#trig{display:none}
+.formcontent{width:99.2%;border:solid 1px #FDFDFD;box-shadow:0 0 1px 1px #d5d5d5;padding-top:0.5%; margin: 4px auto;}
+.supportingtxt{display:block;margin-top:1%;font-size:100%;color:#888}
+.formcontent div{width:94%;margin:5px auto;display:block;padding:1.5% 3%}
+.formcontent div:hover{background:#F6F6F6}
+h1,h2,h3,h4,h5,h6{margin-left:3%;margin-right:3%}
+.formcontent p{margin-left:3%;margin-right:3%;font-size:12px}
+.formcontent p .subtitle{margin-left:3%;margin-right:3%;font-size:10px}
+u{color:#09F}
+u:hover{color:#66C2FF;cursor:pointer}
+.formcontent div .txtbox{width:50%;padding:4px;margin-top:1%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .firstname{width:22.4%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .lastname{width:22.4%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .middlename{width:22.4%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .initials{width:5%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .prefix{width:6%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .suffix{width:6%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .addrline1{width:28%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .addrline2{width:28%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .city{width:23%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .state{width:5%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .zip{width:5%;padding:4px;margin:1% 0 0;display:inline-block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .date{width:25%;padding:4px;margin:1% 1% 0 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .number{width:25%;padding:4px;margin:1% 0 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .telephone{width:25%;padding:4px;margin:1% 1% 0 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .email{width:50%;padding:4px;margin-top:1%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .datetime{width:25%;padding:4px;margin:1% 1% 0 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .time{width:25%;padding:4px;margin:1% 1% 0 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div textarea{width:50%;padding:4px;margin-top:1%;display:block;resize:none;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .fileupload{width:50%;padding:1px;margin:1% 1% 0 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .sigPad{padding-top:2px;padding-bottom:2px;margin:1%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .pad{border:solid 2px #d5d5d5;border-radius:5px;cursor:pointer;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .clearButton{margin:1%;margin-right:6%;float:right;font-size:12px;cursor:pointer;color:#1fa0e4;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .clearButton:hover{color:#62BCEC}
+.formcontent div label{font-size:14px;color:#5F5F5F;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.option{width:100%;display:inline-block;padding:5px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.option .sp_option{padding:4px;font-size:14px;color:#2E2E2E;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.checkbox{margin-left:2.2%;width:100%;display:inline-block;padding:5px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.checkbox .sp_checkbox{padding:4px;font-size:14px;color:#2E2E2E;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.Defaultdropdown{width:50%;padding:4px;margin-top:8px;margin-bottom:10px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit{width:94%;margin:5px auto;display:block;padding:1.5% 3%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit .btnSubmit{background-color:#e2e2e2;border:solid 1px #d3d3d3;padding:8px;cursor:pointer;border-radius:4px;transition:border-color .4s ease 0s,background-color .4s ease 0;box-shadow:rgba(0,0,0,0.6) 0 1px 3px 0;width:20%;color:#181818;margin-top:5%;margin-bottom:4%;background:linear-gradient(#ebebeb,#ccc);font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit .btnSubmit:hover{transition:all 300ms ease;color:#181818;background:linear-gradient(#e2e2e2,#ebebeb)}
+}
+@media screen and (max-width:480px) {
+#trig{display:block}
+.formcontent{width:100%;border:solid 1px #FDFDFD;box-shadow:0 0 1px 1px #d5d5d5;border-radius:5px;margin:5px auto;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.supportingtxt{display:block;margin-top:1%;font-size:100%;color:#888;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div{width:94%;display:block;padding:4% 3%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div:hover{background:#F6F6F6;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+h1,h2,h3,h4,h5,h6{margin-left:3%;margin-right:3%;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+p{margin:3%;font-size:12px;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+p .subtitle{margin-left:3%;margin-right:3%;font-size:10px;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+u{color:#09F;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+u:hover{color:#66C2FF;cursor:pointer;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .txtbox,.firstname,.lastname,.middlename,.initials,.prefix,.suffix,.addrline1,.addrline2,.city,.state,.zip,.number,.telephone,.email{width:96%;padding:4px;font-size:12px;display:block;margin:2% 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .date,.datetime,.time,.fileupload{width:96%;padding:4px;font-size:12px;display:block;margin:2% 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div textarea{width:96%;padding:2px;display:block;resize:none;font-size:12px;margin:2% 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .sigPad{padding-top:2px;padding-bottom:2px;margin:1%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .pad{border:solid 2px #d5d5d5;border-radius:5px;cursor:pointer;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .clearButton{margin:1%;margin-right:6%;float:right;font-size:12px;cursor:pointer;color:#1fa0e4;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .clearButton:hover{color:#62BCEC}
+.formcontent div label{font-size:12px;color:#5F5F5F;display:block;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.option{width:96%;display:inline-block;padding:5px;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.option .sp_option{padding:4px;font-size:12px;color:#2E2E2E;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.checkbox{margin-left:7%; width:96%;display:inline-block;padding:5px;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.checkbox .sp_checkbox{padding:4px;font-size:12px;color:#2E2E2E;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.Defaultdropdown{width:96%;padding:4px;margin-top:8px;margin-bottom:10px;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit{margin:5px auto;display:block;padding:1.5% 3%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit .btnSubmit{background-color:#e2e2e2;border:solid 1px #d3d3d3;padding:8px;cursor:pointer;border-radius:4px;transition:border-color .4s ease 0s,background-color .4s ease 0;box-shadow:rgba(0,0,0,0.6) 0 1px 3px 0;width:96%;color:#181818;margin-top:5%;margin-bottom:4%;background:linear-gradient(#ebebeb,#ccc);font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit .btnSubmit:hover{transition:all 300ms ease;color:#181818;background:linear-gradient(#e2e2e2,#ebebeb)}
+}
+@media only screen and (max-width:985px) and (min-width : 481px) {
+#trig{display:inline-block}
+.formcontent{width:100%;border:solid 1px #FDFDFD;box-shadow:0 0 1px 1px #d5d5d5;border-radius:5px;margin:5px auto;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.supportingtxt{display:block;margin-top:1%;font-size:100%;color:#888;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div{width:94%;margin:10px auto;display:block;padding:2% 3%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div:hover{background:#F6F6F6}
+h1,h2,h3,h4,h5,h6{margin-left:3%;margin-right:3%;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+p{margin:3%;font-size:12px;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+p .subtitle{margin-left:3%;margin-right:3%;font-size:10px;display:block;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+u{color:#09F;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+u:hover{color:#66C2FF;cursor:pointer}
+.formcontent div .txtbox,.firstname,.lastname,.middlename,.initials,.prefix,.suffix,.addrline1,.addrline2,.city,.state,.zip,.number,.telephone,.email{width:50%;padding:4px;font-size:12px;display:block;margin:2% 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .date,.datetime,.time,.fileupload{width:50%;padding:4px;font-size:12px;display:block;margin:2% 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div textarea{width:50%;padding:2px;display:block;resize:none;font-size:12px;margin:2% 0;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .sigPad{padding-top:2px;padding-bottom:2px;margin:1%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .pad{border:solid 2px #d5d5d5;border-radius:5px;cursor:pointer;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .clearButton{margin:1%;margin-right:6%;float:right;font-size:12px;cursor:pointer;color:#1fa0e4;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.formcontent div .clearButton:hover{color:#62BCEC}
+.formcontent div label{font-size:12px;color:#5F5F5F;display:block;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.option{width:96%;display:inline-block;padding:5px;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.option .sp_option{padding:4px;font-size:12px;color:#2E2E2E;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.checkbox{margin-left:7%; width:96%;display:inline-block;padding:5px;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.checkbox .sp_checkbox{padding:4px;font-size:12px;color:#2E2E2E;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.Defaultdropdown{width:50%;padding:4px;margin-top:8px;margin-bottom:10px;font-size:12px;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit{margin:5px auto;display:block;padding:1.5% 3%;font-family:"Sans-Serif",Arial,Calibri,Helvetica}
+.btn_submit .btnSubmit{background-color:#e2e2e2;border:solid 1px #d3d3d3;padding:8px;cursor:pointer;border-radius:4px;transition:border-color .4s ease 0s,background-color .4s ease 0;box-shadow:rgba(0,0,0,0.6) 0 1px 3px 0;width:40%;color:#181818;margin-top:5%;margin-bottom:4%;background:linear-gradient(#ebebeb,#ccc)}
+.btn_submit .btnSubmit:hover{transition:all 300ms ease;color:#181818;background:linear-gradient(#e2e2e2,#ebebeb)}
+}

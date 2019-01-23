@@ -1,0 +1,159 @@
+#slides {
+ 
+width: 100%;
+background-size: cover;
+height: 675px !important;
+}
+
+#slides .slides-container {
+  display: none;
+}
+
+#slides .scrollable {
+ /* *zoom: 1; */
+  position: relative;
+  top: 0;
+  left: 0;
+ overflow-y: auto; 
+  -webkit-overflow-scrolling: touch;
+  height: 50%;
+}
+
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 46%;
+  width: 100%;
+}
+
+.slides-navigation a {
+  position: absolute;
+  display: block;
+}
+
+.slides-navigation a.prev {
+  left: 0;
+}
+
+.slides-navigation a.next {
+  right: 0;
+}
+
+.slides-pagination {
+  position: absolute;
+  z-index: 3;
+  bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.slides-pagination a {
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 20px;
+  height: 20px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  
+  margin: 10px;
+  overflow: hidden;
+  text-indent: -100%;
+
+}
+.slides-pagination a.current {
+  background: white;
+}
+.slide21 h1 {
+  
+  font-weight: normal;
+  font-size: 34pt;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.slide21 h2{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+.slide21 h3{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.slide1 h1 {
+  
+  font-weight: normal;
+  font-size: 34pt;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.slide2 h1{
+  
+  font-weight: normal;
+  font-size: 34pt;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.slide3 h1{
+
+  font-weight: normal;
+  font-size: 34pt;
+  text-align: center;
+  margin-bottom: 250px;
+}
+.slide1 h2{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+.slide2 h2{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+.slide3 h2{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+.slide1 h3{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+.slide2 h3{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+.slide3 h3{
+  font-weight: normal;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.subcircular 
+{
+ background-color: aquamarine;
+ margin-left:44%;
+ margin-top: -12%;
+ margin-bottom: 3%;
+ width: 150px;
+ height: 150px;
+ border-radius: 150px;
+ -webkit-border-radius: 150px;
+ -moz-border-radius: 150px;
+}
+

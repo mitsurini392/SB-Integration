@@ -1,0 +1,392 @@
+@charset "utf-8";
+
+img, object, embed, video {
+  max-width: 100%;
+}
+
+.ie6 img {
+  width: 100%;
+}
+
+.fluid {
+  clear: both;
+  margin-left: 0;
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+.fluidList {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+  .glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -ms-animation: spin .7s infinite linear;
+    -webkit-animation: spinw .7s infinite linear;
+    -moz-animation: spinm .7s infinite linear;
+  }
+
+@  keyframes spin {
+    from {
+    transform: scale(1) rotate(0deg);
+  }
+
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spinw {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spinm {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width:768px)  {
+ /******************** mobile ********************/
+
+
+#idimglogo{
+height:80px;
+width:150px;
+}
+
+.blackout-page-load {
+  background-color: #000;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.page-load {
+  text-align: center;
+  font-size: 18px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  color: #337ab7;
+  width: 30%;
+  height: 25%;
+  position: fixed;
+  top: 36%;
+  left: 24.8%;
+  border-radius: 2px;
+  padding: 5%;
+  z-index: 101;
+  margin-left: 10%;
+}
+
+#idimglogo {
+  width: 100%;
+}
+
+.c-footer-details {
+  position: relative;
+  bottom: 0;
+  color: #4b6c9f;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+.c-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2% 5% 0 5%;
+}
+
+.c-pagecontent {
+  //width: 90%;
+}
+
+.welcomeMessage {
+  margin: 3% 0 0 0;
+}
+
+.c-thumbnail {
+  position: relative;
+  border-radius: 50%;
+  margin: 0 0 3% 1%;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  box-shadow: 0px 2px 0px rgba(0,0,1,.15),0px 0px 2px rgba(0,0,0,.2);
+}
+
+.photo_panel {
+  margin: 10px;
+}
+
+#panel {
+  background: #EFEFEF;
+  border: 1px solid #ccc;
+  border-color: rgba(0,0,0,.2);
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+  position: absolute;
+  right: 0;
+  margin-right: 4%;
+  -webkit-border-radius: 2px;
+  padding: 2px 10px;
+  z-index: 1000;
+  display: none;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+}
+
+.p_panel {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.n_panel_name {
+  font-weight: bold;
+  margin: -4px 0 1px 0;
+  text-align: center;
+}
+
+.e_panel_email {
+  color: #666;
+
+}
+
+.prof_link {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  float: left;
+  background: linear-gradient(#ebebeb,#ccc);
+  border-radius: 4px;
+  width: 52%;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding:5px;
+  //box-shadow: rgba(0,0,0,0.6) 0 1px 3px 0;
+}
+
+.prof_link:hover {
+  text-decoration: none;
+  background: linear-gradient(#d9d9d9,#ccc);
+}
+
+.logout {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  float: right;
+  background: linear-gradient(#ebebeb,#ccc);
+  border-radius: 4px;
+  width: 46%;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding:5px;
+  //box-shadow: rgba(0,0,0,0.6) 0 1px 3px 0;
+}
+
+.btn_panel {
+  margin-right: 36%;
+}
+
+.logout:hover {
+  text-decoration: none;
+  background: linear-gradient(#d9d9d9,#ccc);
+}
+
+.span_view {
+  position: absolute;
+  margin-top: -8%;
+}
+
+}
+
+/*
+@media only screen and (max-width:768px) and (min-width : 481px) {
+ ******************* tablet *******************
+}
+*/
+
+
+@media only screen and (min-width:769px) {
+ /******************** desktop ********************/
+
+#idimglogo{
+height:90px;
+width:180px;
+}
+
+.blackout-page-load {
+  background-color: #000;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.page-load {
+  text-align: center;
+  font-size: 18px;
+  background-color: #FFF;
+  border: 1px solid #ccc;
+  color: #337ab7;
+  width: 30%;
+  height: 25%;
+  position: fixed;
+  top: 36%;
+  left: 24.8%;
+  border-radius: 2px;
+  padding: 5%;
+  z-index: 101;
+  margin-left: 10%;
+}
+
+.c-footer-details {
+  position: relative;
+  bottom: 0;
+  color: #4b6c9f;
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+.c-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2% 5% 0 5%;
+}
+
+.c-pagecontent {
+  //width: 90%;
+}
+
+.c-navlinks {
+  margin: 0 20px 0 -15px;
+}
+
+.welcomeMessage {
+  margin: 3% 0 0 1%;
+}
+
+.c-thumbnail {
+  position: relative;
+  border-radius: 50%;
+  margin: 0 0 0 1%;
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  box-shadow: 0px 2px 0px rgba(0,0,1,.15),0px 0px 2px rgba(0,0,0,.2);
+}
+
+.photo_panel {
+  margin: 10px;
+}
+
+#panel {
+  background: #EFEFEF;
+  border: 1px solid #ccc;
+  border-color: rgba(0,0,0,.2);
+  box-shadow: 0 2px 10px rgba(0,0,0,.2);
+  position: absolute;
+  right: 0;
+  -webkit-border-radius: 2px;
+  padding: 2px 10px;
+  z-index: 1000;
+  display: none;
+  border-radius: 5px 5px 0px 0px;
+  text-align: center;
+  width: 70%;
+}
+
+.p_panel {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.n_panel_name {
+  font-weight: bold;
+  margin: -4px 0 1px 0;
+  text-align: center;
+}
+
+.e_panel_email {
+  color: #666;
+}
+
+.prof_link {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  float: left;
+  background: linear-gradient(#ebebeb,#ccc);
+  border-radius: 4px;
+  width: 52%;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding:5px;
+  //box-shadow: rgba(0,0,0,0.6) 0 1px 3px 0;
+}
+
+.prof_link:hover {
+  text-decoration: none;
+  background: linear-gradient(#d9d9d9,#ccc);
+}
+
+.logout {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+  float: right;
+  background: linear-gradient(#ebebeb,#ccc);
+  border-radius: 4px;
+  width: 46%;
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding:5px;
+  //box-shadow: rgba(0,0,0,0.6) 0 1px 3px 0;
+}
+
+.btn_panel {
+  margin-right: 36%;
+}
+
+.logout:hover {
+  text-decoration: none;
+  background: linear-gradient(#d9d9d9,#ccc);
+}
+
+.span_view {
+  position: absolute;
+  margin-top: -8%;
+}
+}

@@ -1,0 +1,56 @@
+.btnCustomSm {
+    width: 163px;
+    height: 37px;
+}
+
+.btnCustomMd {
+    width: 240px;
+    height: 49px;
+}
+
+.btnCustomLg {
+    width: 280px;
+    height: 60px;
+}
+
+.btnCustomSuccess {
+    background-image: linear-gradient(#60dc71, #48ba58)!important;
+    border-radius: 12px;
+    font-family: Gotham-Bold;
+    color: white;
+}
+.btnCustomSuccess:hover {
+    background-image: linear-gradient(#2ed144, #389444)!important;
+}
+
+.btnCustomDefault {
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-family: Gotham-Bold;
+    color: #969696;
+    border: 1px solid #969696;
+}
+.btnCustomDefault:hover {
+    background-color: #969696;
+}
+
+.btnCustomWarning {
+	background-image: linear-gradient(#bc0303, #ff0f0f)!important;
+    border-radius: 12px;
+    font-family: Gotham-Bold;
+    color: white;
+}
+.btnCustomWarning:hover{
+	background-image: linear-gradient(#940303, #e50b0b)!important;
+}
+
+.btnCustomGray {
+    background-image: linear-gradient(#f4f4f4,#c8c8c8) !important;
+    border: #c8c8c8 solid 1px;
+    border-radius: 12px;
+    font-family: Gotham-Bold;
+    color: rgb(25,25,25);
+}
+.btnCustomGray:hover {
+    background-image: linear-gradient(#d9d9d9,#a6a6a6) !important;
+}

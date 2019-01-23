@@ -1,0 +1,305 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, a, p
+{
+	font-family: 'Cantarell', sans-serif;
+	font-weight: normal;
+}
+hr
+{
+	border-color: #224268;
+	height: 4px;
+	background-color: #224268;
+	color: #224268;
+	border: 0;
+	padding: 0;
+}
+h1
+{
+	font-size: 34pt;
+}
+h2
+{
+	font-size: 14pt;
+}
+h22
+{
+	font-family: 'Cantarell', sans-serif;
+	font-weight: normal;
+	font-size: 20pt;
+	color: #224268;
+}
+h3
+{
+	font-size: 14pt;
+}
+h4
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 12pt;
+	color: #224268;
+}
+h5
+{
+	font-size: 5px;
+	color: #224268;
+}
+::-webkit-input-placeholder 
+{
+  font-family: 'Cantarell', sans-serif;
+	font-size: 16x;
+}
+.input
+{
+	padding-left: 2%;
+	width: 89%;
+	height: 25%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.input2
+{
+	padding-left: 2%;
+	width: 62%;
+	height: 25%;
+	margin-left: 5%;
+	margin-top: 3%;
+	margin-bottom: 2%;
+}
+input[type="submit"] 
+{
+	height: 25%;
+    width: 24%;
+    margin-left: 1%;
+	display: inline;
+	margin-right: 0;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #224268;
+}
+.placeholder
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #224268;
+}
+.divlogin
+{
+	display: none;
+	background-color: #224268;
+	height: 19%;
+	width: 24%;
+}
+.divlogin a
+{
+	font-family: 'Cantarell', sans-serif;
+	font-weight: normal;
+	color: dimgray;
+	text-decoration: none;
+	padding-left: 5%;
+}
+
+.divwhat h1, p
+{
+	color: white;
+}
+.divwalls
+{
+	padding-top: 60px;
+	background-size: cover;
+	background-image: url('wall.png');
+	min-height: 600px;
+	width: 100%;   
+	color: #224268;
+}
+.subwall, .divwalls p 
+{
+	font-family: 'Cantarell', sans-serif;
+	font-weight: normal;
+	font-size: 18px;
+	color: #224268;
+}
+.divwalls h1
+{
+	color: #224268;
+}
+.divaboutus
+{
+	padding-top: .5%;
+	background-size: cover;
+	height: 88%;
+	width: 100%;
+	color: black;
+}
+.divmainquestions
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	width: 100%;
+}
+.divquestions
+{
+	margin:0 auto;
+	padding-top: 15px;
+	height: 47%;
+	width: 100%;
+	background-color: #224268;
+}
+.divquestions h1, h2, a
+{
+	color: white;
+	text-decoration: none;
+}
+.subcallus
+{
+	display: inline-block;
+	margin-left: 28%;
+	margin-right: 2%;
+	height: 37%;
+	width: 20%;
+}
+.subemailus
+{
+	margin:0 auto;
+	display: inline-block;
+	height: 37%;
+	width: 20%;
+}
+.divmaps
+{
+	overflow:hidden;height:100%;width:100%;
+	margin:0 auto;
+	height: 44%;
+	width: 100%;
+}
+.divfooter
+{
+	margin:0 auto;
+	padding-top: 1px;
+	height: 23%;
+	width: 100%;	
+}
+.subtermsofuse
+{
+	margin-left: 27.5%;
+	margin-right: 2%;
+	margin-top: 30px;
+	display: inline-block;
+	height: 22%;
+	width: 9%;
+}
+.subtermsconds
+{
+	margin-left: 1.5%;
+	display: inline-block;
+	height: 22%;
+	width: 16%;
+}
+
+.subcopyright
+{
+	margin:0 auto;
+	height: 19%;
+	width: 50%;
+}
+.subcircular 
+{
+	background-color: aquamarine;
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+.divdetails
+{
+	margin:0 auto;
+	padding-top: 2px;
+	height: 18%;
+	width: 52%;
+}
+.divdetails p
+{
+	color: black;
+}
+.divdetails a
+{
+	color: black;
+	text-decoration: underline;
+	font-size: 20px;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: bold;
+}
+.divclients{
+	margin-left: 4%;
+}
+.divwhat
+{
+ padding-top: 3%;
+ min-height: 90%;
+ width: 100%;
+ background-color: #224268;
+}
+
+.divdet
+{
+ height: 59%;
+ width: 20.5%;
+ margin-left: 1%;
+ padding: 1%;
+ display: inline-block;
+ float: left;
+}
+.subwall
+{
+	display: inline-block;
+	width: 23%;
+	height: 41%;
+	margin: 1%;
+}
+legend
+{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+fieldset
+{
+	border: 2px solid #224268;
+}
+.divbutton p
+{
+	font-size: 20px;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: bold;
+	color: white;
+	padding: 9px;
+}
+.divbutton
+{
+	margin-left: 30%;
+	background-color: #224268;
+	height: 7%;
+	width: 40%;
+}
+#gmap_canvas{
+padding: 0;
+margin: 0;
+height: 300px !important;
+width: 100% !important;
+}
+#gmap_canvas img
+{
+	max-width:none!important;background:none!important
+}
+#circle{
+	margin-left: 23%;
+	margin-top: -8%;
+	width: 140px;
+	height: 140px;
+}

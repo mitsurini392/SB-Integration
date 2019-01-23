@@ -1,0 +1,235 @@
+
+@font-face 
+{
+
+	font-family: "font1";
+	src: url("fonts/Lato-Regular.ttf");
+
+}
+
+#demo-modal
+{
+
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+.modal-backdrop.in 
+{
+
+	opacity: 0.5;
+
+}
+
+.speech-bubble-left
+{
+
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	padding: 3%;
+	width: 400px;
+
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5) ;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);*/
+
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.5));
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
+
+}
+
+.speech-bubble-left:after 
+{
+
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #fff;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+
+}
+
+.speech-bubble-left:hover
+{
+
+	-webkit-filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+	filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}
+
+/* --------------------- */
+
+.speech-bubble-bottom
+{
+
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	padding: 3%;
+	width: 400px;
+
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5) ;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);*/
+
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.5));
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
+
+}
+
+.speech-bubble-bottom:after 
+{
+
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #fff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+
+}
+
+.speech-bubble-bottom:hover
+{
+
+	-webkit-filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+	filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}
+
+/* --------------------- */
+
+.speech-bubble-right
+{
+
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	padding: 3%;
+	width: 400px;
+
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5) ;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);*/
+
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.5));
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
+
+}
+
+.speech-bubble-right:after 
+{
+
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #fff;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+
+}
+
+.speech-bubble-right:hover
+{
+
+	-webkit-filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+	filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}
+
+/* --------------------- */
+
+.speech-bubble-top
+{
+
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	padding: 3%;
+	width: 400px;
+
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5) ;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);*/
+
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.5));
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
+
+}
+
+.speech-bubble-top:after 
+{
+
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-bottom-color: #fff;
+	border-top: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-top: -20px;
+
+}
+
+.speech-bubble-top:hover
+{
+
+	-webkit-filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+	filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}
+
+.speech-bubble-noarrow
+{
+
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	padding: 3%;
+	width: 400px;
+	min-height: 200px;
+
+	/*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5) ;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);*/
+
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.5));
+	filter: drop-shadow(2px 2px 1px rgba(0,0,0,0.5));
+
+}
+
+.speech-bubble-noarrow:hover
+{
+
+	-webkit-filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+	filter: drop-shadow(10px 10px 4px rgba(0,0,0,0.5));
+
+}

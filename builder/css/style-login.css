@@ -1,0 +1,309 @@
+@media only screen and (min-width:987px) {
+body
+{
+	background-color: #224268;
+}
+.divcontainer
+{
+	padding-top: 10%;
+	padding-bottom: 1%;
+	width: 100%;
+}
+.divcontainer .header
+{
+	background-color: #224268;
+	width: 30%;
+}
+.header img
+{
+	width: 100%;
+}
+.fields
+{
+	width: 100%;
+	height: 140%;
+}
+.divlogin
+{
+	background-color: #224268;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1%;
+}
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.googlelogin
+	{
+		width:4%;
+		height:35%;
+	}
+	
+	.secured
+	{
+		width: 30%;
+	}
+td
+{
+	padding-bottom: 4%;
+	height: 100%;
+}
+.tdleft
+{
+	width: 45%;
+}
+.tdright
+{
+	width: 55%;
+}
+.divlogin a
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: white;
+	text-decoration: none;
+	padding-top: 0%;
+}
+.btnlogin
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: white;
+	width: 100%;
+	height: 100%;
+	background-color: #7C7C7C;
+	border: none;
+	border-radius: 5px;
+}
+::-webkit-input-placeholder 
+{
+  	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+input[type="text"], input[type="password"]
+{
+    font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+p
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 130%;
+	color: white;
+}
+}
+@media screen and (max-width:480px){
+	body
+{
+	background-color: #224268;
+}
+	.header img
+{
+	width: 100%;
+}
+.divcontainer
+{
+	padding-top: 20%;
+	padding-bottom: 1%;
+	width: 100%;
+}
+.divcontainer .header
+{
+	background-color: #224268;
+	width: 100%;
+}
+
+.fields
+{
+	width: 100%;
+	height: 140%;
+}
+.divlogin
+{
+	background-color: #224268;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1%;
+}
+table
+{
+	margin-top: 10%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: 80%;
+}
+	.googlelogin
+	{
+		width:4%;
+		height:35%;
+	}
+	
+	.secured
+	{
+		width: 30%;
+	}
+td
+{
+	padding-bottom: 4%;
+	height: 100%;
+}
+.tdleft
+{
+	width: 45%;
+}
+.tdright
+{
+	width: 55%;
+}
+.divlogin a
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 85%;
+	color: white;
+	text-decoration: none;
+	padding-top: 0%;
+}
+.btnlogin
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: white;
+	width: 100%;
+	height: 65%;
+	background-color: #7C7C7C;
+	border: none;
+	border-radius: 5px;
+}
+::-webkit-input-placeholder 
+{
+  	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+input[type="text"], input[type="password"]
+{
+    font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+p
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 130%;
+	color: white;
+}
+}
+@media only screen and (min-width : 481px) and (max-width:986px)
+{
+		body
+{
+	background-color: #224268;
+}
+.divcontainer
+{
+	padding-top: 10%;
+	padding-bottom: 1%;
+	width: 100%;
+}
+.divcontainer .header
+{
+	background-color: #224268;
+	width: 60%;
+}
+.header img
+{
+	width: 100%;
+}
+.fields
+{
+	width: 100%;
+	height: 140%;
+}
+.divlogin
+{
+	background-color: #224268;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1%;
+}
+table
+{
+	margin-top: 5%;
+	width: 100%;
+	margin-left: auto;
+	margin-right: 80%;
+}
+	.googlelogin
+	{
+		width:4%;
+		height:35%;
+	}
+	
+	.secured
+	{
+		width: 30%;
+	}
+td
+{
+	padding-bottom: 4%;
+	height: 100%;
+}
+.tdleft
+{
+	width: 45%;
+}
+.tdright
+{
+	width: 55%;
+}
+.divlogin a
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 95%;
+	color: white;
+	text-decoration: none;
+	padding-top: 0%;
+}
+.btnlogin
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: white;
+	width: 100%;
+	height: 95%;
+	background-color: #7C7C7C;
+	border: none;
+	border-radius: 5px;
+}
+::-webkit-input-placeholder 
+{
+  	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+input[type="text"], input[type="password"]
+{
+    font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+p
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 120%;
+	color: white;
+}
+}

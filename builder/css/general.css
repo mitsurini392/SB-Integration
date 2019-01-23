@@ -1,0 +1,81 @@
+@charset "utf-8";img, object, embed, video{max-width:100%;}
+.ie6 img{width:100%;}
+.fluid{clear:both;margin-left:0;width:100%;float:left;display:block;}
+.fluidList{list-style:none;list-style-image:none;margin:0;padding:0;}
+@media screen and (max-width:480px){.gridContainer{margin-left:auto;margin-right:auto;width:90%;padding-left:1%;padding-right:1%;clear:none;float:none;}
+.loginSignupContainer{border-radius:3px 3px 3px 3px;box-shadow:0px 0px 5px #999FA6;margin-top:3%;margin-bottom:3%}
+.loginSignupContainer .header{margin:auto;width:96%;padding-top:2%;padding-bottom:2%;border-bottom:solid 1px #999FA6;}
+.loginSignupContainer .signup{margin:auto;padding:2%;width:100%;color:#ffffff}
+.loginSignupContainer .login{margin:auto;padding:2%;width:100%;}
+.loginSignupContainer .forgotpassword{margin:auto;padding:2%;width:100%;}
+.loginSignupContainer h2{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;margin-left:1%;}
+.loginSignupContainer .txtField{font-family:"Arial", Calibri, Helvetica, sans-serif;width:88%;padding:5px;color:#555555;}
+.loginSignupContainer .labels{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFF;}
+.loginSignupContainer p{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#555555;font-size:90%;width:95%;margin-left:1%;}
+.loginSignupContainer .lbl_status_f{padding:5px;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff0000;font-weight:bold;}
+.loginSignupContainer .lbl_status_s{padding:5px;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#07C541;font-weight:bold;}
+.loginSignupContainer #pEmailCheck{text-align:left;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff0000;font-size:80%;display:none;}
+.loginSignupContainer .sp_FPassword{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#4b6c9f;font-size:90%;cursor:pointer;display:block;}
+.loginSignupContainer .sp_FPassword:hover{text-decoration:underline;}
+.loginSignupContainer .sp_NewAccount{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#4b6c9f;font-size:90%;cursor:pointer;display:block;}
+.loginSignupContainer .sp_NewAccount:hover{text-decoration:underline;}
+.loginSignupContainer .sp_BacktoLogIn{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#4b6c9f;font-size:90%;cursor:pointer;}
+.loginSignupContainer .sp_BacktoLogIn:hover{text-decoration:underline;}
+.loginSignupContainer .btnSubmit{background-color:#e2e2e2;border:solid 1px #d3d3d3;padding:5px;cursor:pointer;border-radius:4px;margin-top:5%;margin-bottom:5%;transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;-webkit-transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;box-shadow:rgba(0, 0, 0, 0.6) 0px 1px 3px 0px;font-family:"Gill Sans MT",Calibri, Arial;width:50%;-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;-ms-transition:all 300ms ease;-o-transition:all 300ms ease;transition:all 300ms ease;color:#181818;background:-webkit-linear-gradient(#ebebeb, #cccccc);background:-o-linear-gradient(#ebebeb, #cccccc);background:-moz-linear-gradient(#ebebeb, #cccccc);background:linear-gradient(#ebebeb, #cccccc);}
+.loginSignupContainer .btnSubmit:hover{-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;-ms-transition:all 300ms ease;-o-transition:all 300ms ease;transition:all 300ms ease;color:#181818;background:-webkit-linear-gradient(#e2e2e2, #ebebeb);background:-o-linear-gradient(#e2e2e2, #ebebeb);background:-moz-linear-gradient(#e2e2e2, #ebebeb);background:linear-gradient(#e2e2e2, #ebebeb);}
+.zeroMargin_mobile{margin-left:0;}
+.hide_mobile{display:none;}
+#loading_img {position: fixed; top: 40%; left: 38%; text-align:center; font-family:"Calibri", Arial, Helvetica, sans-serif;}
+}
+@media only screen and (min-width:481px){
+.gridContainer{width:50%;max-width:1232px;padding-left:0.75%;padding-right:0.75%;margin:auto;clear:none;float:none;margin-left:auto;font-family:"Calibri", Arial, Helvetica, sans-serif;}
+.loginSignupContainer{border-radius:3px 3px 3px 3px;box-shadow:0px 0px 5px #999FA6;margin-top:5%;margin-bottom:5%;padding-bottom:3%; }
+.loginSignupContainer .header{margin:auto;width:96%;padding-top:5%;padding-bottom:2%;border-bottom:solid 1px #999FA6;}
+.loginSignupContainer .signup{margin:auto;padding:2%;width:80%;}
+.loginSignupContainer .login{margin:auto;padding:2%;width:80%;}
+.loginSignupContainer .forgotpassword{margin:auto;padding:2%;width:80%;}
+.loginSignupContainer h2{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#5F5F5F;}
+.loginSignupContainer .txtField{font-family:"Arial", Calibri, Helvetica, sans-serif;width:60%;float:right;padding:5px;color:#555555;}
+.loginSignupContainer .labels{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#FFF;}
+.loginSignupContainer p{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#555555;font-size:90%;}
+.loginSignupContainer .lbl_status_f{padding:5px;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff0000;font-weight:bold;}
+.loginSignupContainer .lbl_status_s{padding:5px;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#07C541;font-weight:bold;}
+.loginSignupContainer #pEmailCheck{text-align:left;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff0000;font-size:80%;display:none;}
+.loginSignupContainer .sp_FPassword{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#4b6c9f;font-size:90%;cursor:pointer;float:right;}
+.loginSignupContainer .sp_FPassword:hover{text-decoration:underline;}
+.loginSignupContainer .sp_NewAccount{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#4b6c9f;font-size:90%;cursor:pointer;float:left;}
+.loginSignupContainer .sp_NewAccount:hover{text-decoration:underline;}
+.loginSignupContainer .sp_BacktoLogIn{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#4b6c9f;font-size:90%;cursor:pointer;}
+.loginSignupContainer .sp_BacktoLogIn:hover{text-decoration:underline;}
+.loginSignupContainer .btnSubmit{background-color:#e2e2e2;border:solid 1px #d3d3d3;padding:5px;cursor:pointer;border-radius:4px;margin-top:5%;transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;-webkit-transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;box-shadow:rgba(0, 0, 0, 0.6) 0px 1px 3px 0px;font-family:"Gill Sans MT",Calibri, Arial;width:35%;-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;-ms-transition:all 300ms ease;-o-transition:all 300ms ease;transition:all 300ms ease;color:#181818;background:-webkit-linear-gradient(#ebebeb, #cccccc);background:-o-linear-gradient(#ebebeb, #cccccc);background:-moz-linear-gradient(#ebebeb, #cccccc);background:linear-gradient(#ebebeb, #cccccc);}
+.loginSignupContainer .btnSubmit:hover{-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;-ms-transition:all 300ms ease;-o-transition:all 300ms ease;transition:all 300ms ease;color:#181818;background:-webkit-linear-gradient(#e2e2e2, #ebebeb);background:-o-linear-gradient(#e2e2e2, #ebebeb);background:-moz-linear-gradient(#e2e2e2, #ebebeb);background:linear-gradient(#e2e2e2, #ebebeb);}
+.zeroMargin_desktop{margin-left:0;}
+.hide_desktop{display:none;}
+#loading_img {position: fixed; top: 42%; left: 45%; text-align:center;font-family:"Calibri", Arial, Helvetica, sans-serif;}
+}
+@media only screen and (min-width:769px){
+.gridContainer{width:50%;max-width:1232px;padding-left:0.75%;padding-right:0.75%;margin:auto;clear:none;float:none;margin-left:auto;font-family:"Calibri", Arial, Helvetica, sans-serif;}
+.loginSignupContainer{border-radius:3px 3px 3px 3px;box-shadow:0px 0px 5px #999FA6;margin-top:5%;margin-bottom:5%;padding-bottom:3%; }
+.loginSignupContainer .header{margin:auto;width:96%;padding-top:5%;padding-bottom:2%;border-bottom:solid 1px #999FA6;}
+.loginSignupContainer .signup{margin:auto;padding:2%;width:80%;color:#ffffff}
+.loginSignupContainer .login{margin:auto;padding:2%;width:80%;}
+.loginSignupContainer .forgotpassword{margin:auto;padding:2%;width:80%;}
+.loginSignupContainer h2{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;}
+.loginSignupContainer .txtField{font-family:"Arial", Calibri, Helvetica, sans-serif;width:60%;float:right;padding:5px;color:#555555;}
+.loginSignupContainer .labels{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;}
+.loginSignupContainer p{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:90%;}
+.loginSignupContainer .lbl_status_f{padding:5px;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff0000;font-weight:bold;}
+.loginSignupContainer .lbl_status_s{padding:5px;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#07C541;font-weight:bold;}
+.loginSignupContainer #pEmailCheck{text-align:left;font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ff0000;font-size:80%;display:none;}
+.loginSignupContainer .sp_FPassword{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:90%;cursor:pointer;float:right;}
+.loginSignupContainer .sp_FPassword:hover{text-decoration:underline;}
+.loginSignupContainer .sp_NewAccount{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:90%;cursor:pointer;float:left;}
+.loginSignupContainer .sp_NewAccount:hover{text-decoration:underline;}
+.loginSignupContainer .sp_BacktoLogIn{font-family:"Calibri", Arial, Helvetica, sans-serif;color:#ffffff;font-size:90%;cursor:pointer;}
+.loginSignupContainer .sp_BacktoLogIn:hover{text-decoration:underline;}
+.loginSignupContainer .btnSubmit{background-color:#e2e2e2;border:solid 1px #d3d3d3;padding:5px;cursor:pointer;border-radius:4px;margin-top:5%;transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;-webkit-transition:border-color 0.4s ease 0s, background-color 0.4s ease 0s;box-shadow:rgba(0, 0, 0, 0.6) 0px 1px 3px 0px;font-family:"Gill Sans MT",Calibri, Arial;width:35%;-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;-ms-transition:all 300ms ease;-o-transition:all 300ms ease;transition:all 300ms ease;color:#181818;background:-webkit-linear-gradient(#ebebeb, #cccccc);background:-o-linear-gradient(#ebebeb, #cccccc);background:-moz-linear-gradient(#ebebeb, #cccccc);background:linear-gradient(#ebebeb, #cccccc);}
+.loginSignupContainer .btnSubmit:hover{-webkit-transition:all 300ms ease;-moz-transition:all 300ms ease;-ms-transition:all 300ms ease;-o-transition:all 300ms ease;transition:all 300ms ease;color:#181818;background:-webkit-linear-gradient(#e2e2e2, #ebebeb);background:-o-linear-gradient(#e2e2e2, #ebebeb);background:-moz-linear-gradient(#e2e2e2, #ebebeb);background:linear-gradient(#e2e2e2, #ebebeb);}
+.zeroMargin_desktop{margin-left:0;}
+.hide_desktop{display:none;}
+#loading_img {position: fixed; top: 42%; left: 45%; text-align:center;font-family:"Calibri", Arial, Helvetica, sans-serif;}
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Gotham-Medium;
+  src: url(../builder/portal/fonts/Gotham/Gotham-Medium.otf);
+}
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../builder/portal/fonts/Gotham/Gotham-Bold.otf);
+}
+@font-face {
+  font-family: Gotham-Light;
+  src: url(../builder/portal/fonts/Gotham/Gotham-Light.otf);
+}

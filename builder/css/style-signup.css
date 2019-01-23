@@ -1,0 +1,102 @@
+body
+{
+	background-color: #224268;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: none;
+}
+.divcontainer
+{
+	padding-top: 4.5%;
+	padding-bottom: 1%;
+	width: 100%;
+}
+.divcontainer .header
+{
+	background-color: #224268;
+	width: 30%;
+}
+img
+{
+	width: 100%;
+}
+.fields
+{
+	width: 100%;
+	height: 130%;
+}
+.divsignup
+{
+	background-color: #224268;
+	width: 45%;
+	margin: auto;
+	padding-top: 1%;
+}
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+td
+{
+	padding-bottom: 2%;
+	height: 100%;
+}
+::-webkit-input-placeholder 
+{
+  	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+input[type="text"], input[type="password"], option, select
+{
+    font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: #224268;
+	padding-left: 1%;
+}
+label
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: white;
+}
+select
+{
+	width: 100%;
+}
+._label
+{
+	padding-right: 3%;
+}
+a
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 89%;
+	color: #7C7C7C;
+	text-decoration: none;
+}
+p
+{
+
+	font-family: 'Cantarell', sans-serif;
+	font-size: 85%;
+	color: white;
+}
+.btnsignup
+{
+	font-family: 'Cantarell', sans-serif;
+	font-size: 100%;
+	color: white;
+	width: 60%;
+	height: 75%;
+	background-color: #7C7C7C;
+	border: none;
+	border-radius: 5px;
+	margin-right: 11%;
+}
+h3
+{
+	font-family: 'Cantarell', sans-serif;
+	color: white;
+}
