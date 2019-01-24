@@ -6,17 +6,17 @@ use PHPMailer\PHPMailer\Exception;
 
 //Load Composer's autoloader
 require 'vendor/autoload.php';
-require_once "db_connect.php";
+include("../../controller/connection.php");
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 $tblcontent = $_POST["tblcontent"];
 $subj = $_POST["subj"];
 $desc = $_POST["desc"];
-session_start();
-$client_id = $_SESSION["client_id"];
-$sql = "SELECT * FROM users WHERE id=$client_id";
 
-$query = $connect->query($sql);
+$client_id = $_POST["client_id"];
+$sql = "SELECT * FROM cs_users WHERE client_id=$client_id";
+
+$query = $csportal_con->query($sql);
 
 while($row = mysqli_fetch_array($query)) {        
     try {
@@ -32,7 +32,7 @@ while($row = mysqli_fetch_array($query)) {
 
         //Recipients
         $mail->setFrom('no-reply@smallbuilders.com.au', 'Small Builders');
-        $mail->addAddress($row["email"], $row["name"]);     // Add a recipient
+        $mail->addAddress($row["email_address"], $row["user_fname"]);     // Add a recipient
         //$mail->addAddress('ellen@example.com');               // Name is optional
 
 
@@ -43,7 +43,7 @@ while($row = mysqli_fetch_array($query)) {
         //Content
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = $subj;
-        $mail->Body    = "Please do not reply. This is an automated email.<br></br> Hi ".$row["name"].",<br><br>$desc<br><br><table style='border-collapse: collapse; width: 100%'>$tblcontent</table><br>If you have any questions, contact John Dela Cruz on 0414 325 080.<br><br>Regards,<br>Small Builders";
+        $mail->Body    = "Please do not reply. This is an automated email.<br></br> Hi ".$row["user_fname"].",<br><br>$desc<br><br><table style='border-collapse: collapse; width: 100%'>$tblcontent</table><br>If you have any questions, contact John Dela Cruz on 0414 325 080.<br><br>Regards,<br>Small Builders";
         //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
         $mail->send();

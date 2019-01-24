@@ -61,9 +61,12 @@ $accessTokenJson = array('token_type' => 'bearer',
 	'x_refresh_token_expires_in' => $accessToken->getRefreshTokenExpiresAt(),
 	'expires_in' => $accessToken->getAccessTokenExpiresAt()
 );
+
 $access_token = $accessTokenJson["access_token"];
 $refresh_token = $accessTokenJson["refresh_token"];
 $realm_id = $accessToken->getRealmID();
+
+
 
 //send activity id to thanks page
 
@@ -300,6 +303,7 @@ $realm_id = $accessToken->getRealmID();
 								
 			}
 		}
+		
 		else if(elem.value == "qb2sb") {
 			alert(elem.value);
 		}
@@ -377,7 +381,7 @@ $realm_id = $accessToken->getRealmID();
             //DO NOT CONTINUE IF THERE ARE NO SUCCESSFUL INTEGRATION
             if (tbl.getElementsByTagName("tbody")[0].innerHTML == "") {
                 //alert("No Integration were successful.");
-                //window.location.href = "customerContacts(SB).php";
+                //location.reload();
                 return;
             }
             //Add Style to every th 
@@ -400,20 +404,43 @@ $realm_id = $accessToken->getRealmID();
             $.ajax({
                 method: "post",
                 url: "quickbooks-integration/sendMail.php",
-                data: "tblcontent=" + tbl.innerHTML + "&subj="+ subj + "&desc=" + desc,
+                data: "tblcontent=" + tbl.innerHTML + "&subj="+ subj + "&desc=" + desc + "&client_id=" + "<?php echo $dec_ci; ?>",
                 success: function (data) {
+					//Change TD and TH again
+					//Loop to th
+					for (let i = 0; i < th.length; i++) {
+						th[i].setAttribute("style","border:solid 1px #ccc; text-align:center; color: #333333;");  
+					}
+					//Loop to td
+					for (let i = 0; i < td.length; i++) {
+						td[i].setAttribute("style","border:solid 1px #ccc; text-align:left; font-size:12px; color: #333");
+					}
                     //Change Whole Body InnerHTML
-                    var body = document.getElementsByTagName("body")[0];
-                    body.innerHTML = `<div class="mt-5 card col-md-8 offset-2" style='background: #FCFCFC; padding: 20px 20px 20px 20px;'>
-                        <p style='color: green'>Success! A copy of your submission has been emailed to you.</p>
-                        
-                        <table class='table table-striped'>`+tblContent+`</table>
-                        
-                        <br>
-                        <div class='text-center'>
-                            <a href='customerContacts(SB).php' class='btn btn-secondary' style='width: 200px;'>Back to Integration</a>
-                        </div>
-                    </div>`;
+					var body = document.getElementsByTagName("html")[0];
+					body.className = 'container';
+                    body.innerHTML = `<html lang="en-AU"><head>
+						<title>Quickbooks Integration</title>
+						<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+						<style>
+						@charset utf-8;
+						body{font-family:Sans-Serif, Arial, Calibri, Helvetica;}
+						.formcontent{width:70%;background:#FCFCFC;border:solid 1px #FDFDFD;box-shadow:0 0 1px 1px #d5d5d5;border-radius:5px;display:block;color:#5cb85c;margin:50px auto;padding:3%;}
+						#backtoform{text-decoration:underline;font-size:14px;color:#1682ba;cursor:pointer;}
+						.btn{display:inline-block;margin-bottom:0;margin-top:20px;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;border-radius:4px;padding:10px 16px;}
+						.btn-default{color:#333;background-color:#fff;border-color:#ccc;}
+						span a:link{color:#00a2ff;text-decoration:none;}
+						span a:hover{text-decoration:underline;color:#00a2ff;}
+						span a:visited{text-decoration:none;color:#00a2ff;}
+						.title_view{color:#333;}
+						</style>
+						</head>
+						<body>
+						<div class="formcontent text-center">
+						<span>Success! A copy of your submission has been emailed to you.</span><br>
+						<br><br><table width="100%" cellpadding="5" cellspacing="0" style="font-family:calibri, arial; margin-top:1%; padding:0; border: solid 1px #ccc; font-size: 14px">`+tbl.innerHTML+`</table>
+						<button class='btn btn-primary' onclick='location.reload();'>Back to Integration</button>
+						</div>
+						</body></html>`;
                 }
             });
         }

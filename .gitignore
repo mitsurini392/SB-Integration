@@ -1,0 +1,7 @@
+builder/portal/quickbooks-integration/composer.lock
+builder/portal/quickbooks-integration/composer.phar
+builder/portal/quickbooks-integration/vendor/
+.idea/
+
+public/
+
